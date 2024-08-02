@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: rgb(0, 0, 0);
+}
+p {
+  text-align: left;
+}
+.container {
+  width: 300px;
+  border-style: solid;
+}
+img {
+  width: 100%;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill {
+  align-items: center;
+  display: flex;
+  gap: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+.data {
+  padding: 20px;
+}
+.name {
+  margin-bottom: 10px;
+}
+.about {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
